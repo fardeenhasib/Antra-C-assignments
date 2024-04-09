@@ -1,0 +1,119 @@
+ Assignment 1 non-coding answers
+ 
+ Q1
+ 1. Telephone number: string 
+ 2. Height: float
+ 3. Age: Integer
+ 4. Gender: Enum
+ 5. Salary: Decimal
+ 6. Book's ISBN: string
+ 7. Book's price: Double
+ 8. Book's shipping weight: Double
+ 9. Country's population: long
+ 10.Number of Stars in the Universe: BigInteger
+ 11.The number of employees in each of the small or medium businesses in the United Kingdom: Unsigned Integer
+
+
+ Q2
+ Reference type vs Value type:
+	1.Value type will directly hold the value while the reference type will hold the memory address or reference for this value.
+	2.Value types are stored in stack memory and reference types are stored in heap memory.
+	3.Value type will not be collected by garbage collector but reference type will be collected by the garbage collector. 
+	4.The value types can be created by struct, enum while reference type can be created by class, interface, delegate or array.
+	5.Value type can no accept any null values while reference types can accept null values.
+
+ Boxing vs Unboxing:
+	 Boxing is the process of converting a value type to a reference type, 
+	 and unboxing is the reverse process.
+
+ Q3
+ Managed Resource vs. Unmanaged Resource in .NET:
+	Managed resources are objects whose memory is managed by the .NET Framework's garbage collector.
+	Unmanaged resources are external to the .NET Framework's memory management and require manual handling, 
+	usually through explicit cleanup code.
+
+ Q4
+ Purpose of Garbage Collector in .NET:
+	The garbage collector automatically manages the memory used by .NET applications.
+	It identifies and removes objects that are no longer needed, freeing up memory for other objects.
+
+
+ Test your knowldge:
+	1. When we divide an int variable by 0 in C#, it will throw a DivideByZeroException at runtime. This is because dividing by zero is not mathematically defined and is considered an error.
+
+	2. When we divide a double variable by 0 in C#, it will result in either positive infinity (double.PositiveInfinity) if the dividend is positive, negative infinity (double.NegativeInfinity) if the dividend is negative, or double.NaN (Not a Number) if the dividend is zero. No exception is thrown for this operation.
+
+	3. When we overflow an int variable in C#, it wraps around and may produce unexpected results. For example, if you set an int variable to its maximum value (int.MaxValue) and then increment it by 1, it will overflow and become the minimum value (int.MinValue). This behavior is because int is a signed 32-bit integer type, and it has a range from -2,147,483,648 to 2,147,483,647.
+
+	4. In C#, x = y++; is a postfix increment operator, which means the value of y is assigned to x, and then y is incremented by 1. On the other hand, x = ++y; is a prefix increment operator, which means y is incremented by 1, and then the value of y is assigned to x.
+
+	5. In C#:
+
+		break is used to exit the loop immediately and continue execution after the loop.
+		continue is used to skip the remaining code inside the loop and continue with the next iteration of the loop.
+		return is used to exit the entire method (including any loops) and return control to the caller.
+	
+	6. The three parts of a for statement in C# are:
+		Initialization: It initializes the loop control variable, executes only once at the beginning of the loop, and is optional.
+		Condition: It evaluates a boolean expression to determine whether the loop should continue or terminate, executed before each iteration, and is required.
+		Iteration: It updates the loop control variable, executed after each iteration, and is optional.
+
+	7. In C# and many other programming languages, `=` and `==` are operators with different purposes:
+
+		 `=` (Assignment Operator):
+		   - The `=` operator is used for assignment in C#. It assigns the value on the right-hand side of the operator to the variable on the left-hand side.
+		   - Example: int x = 5; assigns the value 5 to the variable x.
+
+		 `==` (Equality Operator):
+		   - The `==` operator is used for equality comparison in C#. It checks whether the values on both sides of the operator are equal.
+		   - Example: if (x == 5) checks if the value of variable x is equal to 5.
+
+	8. This is a valid for loop syntax in C#. It is an infinite loop because the condition true will always be true, causing the loop to continue indefinitely. 
+	   The semicolon ; after the loop body is an empty statement, indicating that there is no code to execute within the loop.
+
+	9. In a switch expression in C#, the underscore _ serves as a discard pattern, also known as a discard placeholder. It is used when we want to ignore the value
+	   of a particular case and perform the same action regardless of the value.
+
+	10. To be enumerated over by using the foreach statement in C#, an object must implement the IEnumerable interface or its generic counterpart IEnumerable<T>.
+
+
+
+If we execute the provided code:
+
+int max = 500;
+for (byte i = 0; i < max; i++)
+{
+    Console.WriteLine(i);
+}
+We will encounter a runtime error because the loop variable i is declared as a byte, which has a maximum value of 255. 
+When i reaches 255 and is incremented by 1, it will overflow and become 0 due to the characteristics of the byte data type. 
+This will cause an infinite loop because i will never be greater than max.
+
+
+Assignment 2 non-coding answer
+Test your knowledge:
+
+Sure, let's go through these:
+
+1. When to use String vs. StringBuilder in C#?
+   - Use `String` when the value of the string will not change frequently. Strings are immutable, so when we modify them, a new string object is created.
+   - Use `StringBuilder` when we need to perform a lot of string manipulation operations (like concatenation) in a loop or other scenarios where mutable strings are needed for performance reasons.
+
+2. What is the base class for all arrays in C#?
+   - The base class for all arrays in C# is `System.Array`.
+
+3. How do you sort an array in C#?
+   - We can sort an array in C# using the Array.Sort() method.
+
+4. What property of an array object can be used to get the total number of elements in an array?
+   - We can use the `Length` property of an array object to get the total number of elements in the array.
+
+5. Can you store multiple data types in System.Array?
+   - No, `System.Array` can only store elements of a single data type. However, we can store objects of different types in an array if we declare it as an array of type object[].
+
+6. What’s the difference between the System.Array.CopyTo() and System.Array.Clone()?
+   - `System.Array.CopyTo()` copies the elements of one array to another existing array. We specify the destination array as the parameter.
+   - `System.Array.Clone()` creates a shallow copy of the array. It returns a new array object containing all the elements of the original array. Changes to the elements of the original array won't affect the cloned array, but changes to the elements themselves 
+   (if they are reference types) will affect both arrays.
+
+
