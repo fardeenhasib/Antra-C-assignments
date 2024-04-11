@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\farde\\source\\repos\\ConsoleApp2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77E90F1A-5284-4F91-A0DF-DB7718FE836D}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\farde\\source\\repos\\consoleapp2\\consoleapp2\\q7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77E90F1A-5284-4F91-A0DF-DB7718FE836D}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\q7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{77E90F1A-5284-4F91-A0DF-DB7718FE836D}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\farde\\source\\repos\\consoleapp2\\consoleapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77E90F1A-5284-4F91-A0DF-DB7718FE836D}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E90F1A-5284-4F91-A0DF-DB7718FE836D}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\farde\\source\\repos\\consoleapp2\\consoleapp2\\q6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77E90F1A-5284-4F91-A0DF-DB7718FE836D}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\q6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E90F1A-5284-4F91-A0DF-DB7718FE836D}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\farde\\source\\repos\\consoleapp2\\consoleapp2\\q7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77E90F1A-5284-4F91-A0DF-DB7718FE836D}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\q7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{77E90F1A-5284-4F91-A0DF-DB7718FE836D}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\farde\\source\\repos\\consoleapp2\\consoleapp2\\fibonacci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,24 +34,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Q6.cs",
+              "DocumentMoniker": "C:\\Users\\farde\\source\\repos\\ConsoleApp2\\ConsoleApp2\\Q6.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2\\Q6.cs",
+              "ToolTip": "C:\\Users\\farde\\source\\repos\\ConsoleApp2\\ConsoleApp2\\Q6.cs",
+              "RelativeToolTip": "ConsoleApp2\\Q6.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T03:10:34.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Q7.cs",
               "DocumentMoniker": "C:\\Users\\farde\\source\\repos\\ConsoleApp2\\ConsoleApp2\\Q7.cs",
               "RelativeDocumentMoniker": "ConsoleApp2\\Q7.cs",
               "ToolTip": "C:\\Users\\farde\\source\\repos\\ConsoleApp2\\ConsoleApp2\\Q7.cs",
               "RelativeToolTip": "ConsoleApp2\\Q7.cs",
-              "ViewState": "AQIAAEkAAAAAAAAAAAAqwFAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T02:57:38.68Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Fibonacci.cs",
               "DocumentMoniker": "C:\\Users\\farde\\source\\repos\\ConsoleApp2\\ConsoleApp2\\Fibonacci.cs",
               "RelativeDocumentMoniker": "ConsoleApp2\\Fibonacci.cs",
@@ -55,12 +72,11 @@
               "RelativeToolTip": "ConsoleApp2\\Fibonacci.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAAwAkAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T23:09:13.121Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T23:09:13.121Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ReverseArray.cs",
               "DocumentMoniker": "C:\\Users\\farde\\source\\repos\\ConsoleApp2\\ConsoleApp2\\ReverseArray.cs",
               "RelativeDocumentMoniker": "ConsoleApp2\\ReverseArray.cs",
@@ -68,12 +84,11 @@
               "RelativeToolTip": "ConsoleApp2\\ReverseArray.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAAuwCIAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T18:10:10.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T18:10:10.604Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Ans.txt",
               "DocumentMoniker": "C:\\Users\\farde\\source\\repos\\ConsoleApp2\\ConsoleApp2\\Ans.txt",
               "RelativeDocumentMoniker": "ConsoleApp2\\Ans.txt",
@@ -85,13 +100,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\farde\\source\\repos\\ConsoleApp2\\ConsoleApp2\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp2\\Program.cs",
               "ToolTip": "C:\\Users\\farde\\source\\repos\\ConsoleApp2\\ConsoleApp2\\Program.cs",
               "RelativeToolTip": "ConsoleApp2\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAQwDUAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-10T18:04:07.679Z",
               "EditorCaption": ""
